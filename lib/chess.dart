@@ -1,0 +1,113 @@
+import 'package:flutter/material.dart';
+
+class chess extends StatelessWidget {
+  const chess({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(appBar: AppBar(title: Text("Chess Bord")),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        //crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(color: Colors.white,width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+            ],
+          ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+              Container(color: Colors.black,width: 45,height: 45,),
+              Container(decoration: BoxDecoration(border: Border.all(color: Colors.black),color: Colors.white),width: 45,height: 45,),
+            ],
+          ),
+
+        ],
+      ),);
+  }
+}
